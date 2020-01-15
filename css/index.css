@@ -183,5 +183,21 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background: url('/img/PFR-Background.svg') no-repeat center center / cover;
+  width: 100vw;
+  height: 100vh;
+}
+.hamburger {
+  background-color: rgba(30, 144, 255, 0.5);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(30, 144, 255, 0.5);
+}
+nav {
+  justify-content: space-between;
 }
