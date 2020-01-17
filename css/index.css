@@ -19,9 +19,7 @@ h5 {
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background: url('/img/PFR-Background.svg') repeat center center / cover;
-  width: 100vw;
-  height: 100vh;
+  background-color: #ffffff;
 }
 .hamburger {
   display: none;
@@ -30,10 +28,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0000cd;
+  background-color: rgba(38, 106, 216, 0.8);
   box-shadow: 0.8rem 0rem 0.8rem 0.8rem rgba(0, 0, 0, 0.3);
   height: 9rem;
   padding-right: 2rem;
+  position: sticky;
+  top: 0;
 }
 .name {
   font-size: 2.5rem;
