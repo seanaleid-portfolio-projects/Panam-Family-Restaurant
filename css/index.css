@@ -43,7 +43,7 @@ body {
 nav {
   font-size: 1.8rem;
   padding: 2rem;
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
 }
@@ -67,7 +67,7 @@ nav a:hover {
   color: #000000;
   text-decoration: none;
 }
-.bottom {
+.top {
   margin: 0 auto;
   width: 80%;
   height: 100vh;
@@ -148,4 +148,88 @@ nav a:hover {
 .breakfast > h4 {
   font-size: 2rem;
   font-style: italic;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.address i,
+.phone i,
+.email i {
+  font-size: 2rem;
+  margin-left: 15rem;
+}
+.address h4,
+.phone h4,
+.email h4 {
+  display: inherit;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+.contact-main {
+  max-width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-box {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+.contact-left {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contact-right {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#map {
+  width: 100%;
+  height: 450px;
+  background-color: grey;
+}
+.title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.day {
+  display: flex;
+  justify-content: space-between;
+}
+.day > h4 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.hours {
+  margin-left: 1rem;
+}
+.breakfast > h4 {
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.address i,
+.phone i,
+.email i {
+  font-size: 2rem;
+  margin-left: 15rem;
+}
+.address h4,
+.phone h4,
+.email h4 {
+  display: inherit;
+  font-size: 1.5rem;
+  justify-content: center;
 }
