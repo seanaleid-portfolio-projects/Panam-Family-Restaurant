@@ -28,8 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(38, 106, 216, 0.8);
-  box-shadow: 0.8rem 0rem 0.8rem 0.8rem rgba(0, 0, 0, 0.3);
+  background-color: #266ad8;
   height: 9rem;
   padding-right: 2rem;
   position: sticky;
@@ -100,7 +99,6 @@ nav a:hover {
   max-width: 100%;
   padding: 2rem;
   background-color: #ffffff;
-  box-shadow: 0rem 0.8rem 0.8rem 0.3rem rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
   display: flex;
   justify-content: center;
